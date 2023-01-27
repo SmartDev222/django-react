@@ -48,7 +48,6 @@ From django-compressor settings, the value of COMPRESS_ENABLED = !DEBUG, in sett
     COMPRESS_OFFLINE = True
     STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-Then run,
 
 .. code-block:: python
 
