@@ -8,9 +8,9 @@ from importlib import import_module
 import six
 from django.core.cache import caches
 from django.core.files.base import ContentFile
-from django.utils.encoding import force_text, smart_bytes
+from django.utils.encoding import smart_bytes
 from django.utils.functional import SimpleLazyObject
-
+from compressor.compatible import force_text
 from compressor.conf import settings
 from compressor.storage import default_storage
 from compressor.utils import get_mod_func
